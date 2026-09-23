@@ -1,1 +1,17 @@
-
+{
+  "i18n": true,
+  "type": "panel",
+  "items": {
+    "threshold": {
+      "type": "number",
+      "label": "Batterie-Schwellenwert (%)",
+      "default": 20,
+      "min": 1,
+      "max": 99,
+      "help": {
+        "en": "Devices below this percentage are considered low battery.",
+        "de": "Geräte unterhalb dieses Prozentwertes werden als leer gewertet."
+      }
+    }
+  }
+}
