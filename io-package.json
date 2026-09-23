@@ -1,1 +1,57 @@
-
+{
+  "common": {
+    "name": "battery-monitor",
+    "version": "0.0.1",
+    "title": "Battery Monitor",
+    "titleLang": {
+      "en": "Battery Monitor",
+      "de": "Batterie-Überwachung"
+    },
+    "desc": {
+      "en": "Monitors battery levels across all devices",
+      "de": "Überwacht Batteriestände aller Geräte"
+    },
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "icon": "battery.png",
+    "enabled": true,
+    "loglevel": "info",
+    "type": "household",
+    "compact": true,
+    "native": {
+      "threshold": 20
+    },
+    "objects": []
+  },
+  "native": {
+    "threshold": 20
+  },
+  "instanceObjects": [
+    {
+      "_id": "lowBatteriesList",
+      "type": "state",
+      "common": {
+        "name": "Liste leerer Batterien",
+        "type": "string",
+        "role": "json",
+        "read": true,
+        "write": false,
+        "def": "[]"
+      },
+      "native": {}
+    },
+    {
+      "_id": "lowBatteriesCount",
+      "type": "state",
+      "common": {
+        "name": "Anzahl leerer Batterien",
+        "type": "number",
+        "role": "value",
+        "read": true,
+        "write": false,
+        "def": 0
+      },
+      "native": {}
+    }
+  ]
+}
