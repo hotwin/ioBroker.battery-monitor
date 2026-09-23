@@ -1,1 +1,26 @@
-
+{
+  "name": "iobroker.battery-monitor",
+  "version": "0.0.1",
+  "description": "Überwacht Batteriestände aller Geräte im ioBroker",
+  "author": "Horst <info@boettcher-services.de>",
+  "homepage": "https://github.com/hotwin/ioBroker.battery-monitor",
+  "license": "MIT",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hotwin/ioBroker.battery-monitor.git"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^3.1.6"
+  },
+  "devDependencies": {
+    "@iobroker/testing": "^4.1.0"
+  },
+  "engines": {
+    "node": ">= 18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true
+}
