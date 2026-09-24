@@ -1,6 +1,6 @@
 {
   "name": "iobroker.battery-monitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Überwacht Batteriestände aller Geräte im ioBroker",
   "author": "Horst <info@boettcher-services.de>",
   "homepage": "https://github.com/hotwin/ioBroker.battery-monitor",
