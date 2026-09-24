@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "battery-monitor",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "title": "Battery Monitor",
     "titleLang": {
       "en": "Battery Monitor",
@@ -18,6 +18,9 @@
     "loglevel": "info",
     "type": "household",
     "compact": true,
+    "adminUI": {
+      "config": "json"
+    },
     "native": {
       "threshold": 20
     },
